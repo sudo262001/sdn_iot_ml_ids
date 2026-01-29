@@ -1,19 +1,14 @@
-# sdn_iot_ml_ids
+# sdn_iot_ids
 ## Final Year's Junior Project 
 ### Nagham Ashkar & Moustafa Seifo
 
 ## Abstract
-In IoT communications, lightweight messaging protocols such as Message Queuing Telemetry Transport
-(MQTT) are commonly used due to their minimal overhead and suitability for resource-constrained devices.
-However, these protocols introduce additional complexity for security monitoring because traditional network
-IDS tools are often not optimized for application-layer traffic semantics. The MQTTset dataset — which
-contains labeled benign and malicious MQTT traffic — provides an important benchmark for evaluating
-intrusion detection approaches designed specifically for MQTT-based IoT traffic. Using realistic IoT traffic
-patterns, including both normal operation and attack scenarios, enables machine learning models to learn
-discriminative features that reflect real-world behavior, improving the IDS’s ability to detect threats in MQTT
-environments. Evaluating IDS performance using such specialized real-world datasets is critical, as it
-ensures that developed models can generalize beyond synthetic or generic traffic datasets and operate
-effectively under realistic network conditions.
+
+This project investigates the security of MQTT-based IoT networks by designing and implementing an intrusion detection and mitigation framework based on Software-Defined Networking (SDN). The proposed approach leverages the centralized control and global visibility provided by SDN to dynamically detect malicious traffic patterns and enforce mitigation policies at the network level. Instead of relying solely on traditional host-based defenses, the system integrates a network-based intrusion detection system (IDS) to monitor MQTT traffic in real time.
+
+In the proposed architecture, Suricata is employed as a signature-based IDS to analyze MQTT traffic and detect known attack patterns and protocol violations, including publish flooding and malformed MQTT control packets. Upon detecting a security alert, the SDN controller reacts by dynamically installing flow rules in the OpenFlow switch to block malicious traffic originating from the detected source for a predefined period of time. This tight integration between the IDS and the SDN controller enables automated and rapid mitigation without manual intervention.
+
+The system is implemented and evaluated in a virtualized testbed using Mininet, Open vSwitch, the Ryu SDN controller, and a Mosquitto MQTT broker. Experimental results demonstrate that the proposed solution is capable of detecting and mitigating several MQTT-specific attacks in real time, effectively reducing their impact on the broker and the network. The project highlights the feasibility and effectiveness of combining SDN with signature-based intrusion detection to enhance the security of MQTT-based IoT environments, while also identifying potential challenges and directions for future improvements.
 
 
 ## Architecture
