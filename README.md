@@ -12,4 +12,4 @@ The system is implemented and evaluated in a virtualized testbed using Mininet, 
 
 
 ## Architecture
-<img width="747" height="877" alt="ML-based IDS with Ryu SDN Integration" src="https://github.com/user-attachments/assets/d7374cb9-f994-41d5-9998-0e20d252e6e4" />
+<img width="1536" height="1024" alt="ChatGPT Image Jan 29, 2026, 05_30_30 AM" src="https://github.com/user-attachments/assets/b7f46e91-69c9-479a-b9a9-6bedfe9aaa1d" />
