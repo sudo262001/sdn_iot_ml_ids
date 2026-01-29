@@ -12,5 +12,6 @@ The system is implemented and evaluated in a virtualized testbed using Mininet, 
 
 
 ## Architecture
-" />
-![IMG_20260129_054418_717](https://github.com/user-attachments/assets/23d6ae78-210a-42cc-998e-dee452a9d72e)
+![IMG_20260129_054418_717](https://github.com/user-attachments/assets/40bc5e0d-1bd6-4289-b7d9-f03fecbcd99e)
+
+
