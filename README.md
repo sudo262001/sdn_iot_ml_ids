@@ -12,4 +12,5 @@ The system is implemented and evaluated in a virtualized testbed using Mininet, 
 
 
 ## Architecture
-<img width="1536" height="1024" alt="ChatGPT Image Jan 29, 2026, 05_30_30 AM" src="https://github.com/user-attachments/assets/b7f46e91-69c9-479a-b9a9-6bedfe9aaa1d" />
+" />
+![IMG_20260129_054418_717](https://github.com/user-attachments/assets/23d6ae78-210a-42cc-998e-dee452a9d72e)
